@@ -28,3 +28,4 @@
 
 # Ignore deploy config.
 /config/deploy
+.rvmrc
