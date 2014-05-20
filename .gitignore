@@ -19,7 +19,7 @@
 /config/database.yml
 /config/secrets.yml
 /config/config.yml
-Gemfile.lock
+/config/resque.sh
 
 # Ignore uploads.
 /public/uploads
@@ -29,4 +29,7 @@ Gemfile.lock
 
 # Ignore deploy config.
 /config/deploy
+
 .rvmrc
+
+/Gemfile.lock
