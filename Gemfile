@@ -32,7 +32,7 @@ gem 'turbolinks', github: 'chloerei/turbolinks', branch: 'reset-scroll-position'
 gem 'bootstrap-sass', '~> 3.1.0'
 
 # Font Awesome
-gem 'font-awesome-sass', '~> 4.0.2'
+gem 'font-awesome-sass', '~> 4.1.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -100,6 +100,10 @@ group :development do
   gem 'i18n-tasks', '~> 0.3.2'
   # Deploy tool
   gem 'mina'
+  gem 'pry',                    '0.9.12'
+  gem 'pry-nav',                '0.2.2'
+  gem 'pry-stack_explorer',     '0.4.9'
+  gem 'pry-rails',              '0.2.2'
 end
 
 group :development, :test do
