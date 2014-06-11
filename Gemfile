@@ -84,6 +84,9 @@ gem 'hiredis', '~> 0.4.5'
 gem 'resque', '~> 1.25.1'
 gem 'resque_mailer', '~> 2.2.6'
 
+#@功能 提示
+gem "jquery-atwho-rails", "0.1.6"
+
 # unicorn
 gem 'unicorn'
 
